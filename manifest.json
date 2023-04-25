@@ -1,0 +1,14 @@
+{
+    "name": "Leads Tracker Extension",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Cette extension enregistre les liens URL des onglets de votre navigateur Chrome.",
+    "browser_action": {
+        "default_icon": "selective.png",
+        "default_popup": "popup.html",
+        "default_title": "Leads Tracker Extension"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
